@@ -1,0 +1,52 @@
+/* body {
+    background-color: #A52A2A;
+} */
+
+/* h1, h2, ul {
+    color:#FFFAFA;
+} */
+
+h1 {
+    font-family: URW Chancery L, cursive;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+label {
+    /* color: #FFFAFA; */
+    font-size: 15pt 
+}
+
+
+input {
+    width: 30rem 
+} 
+
+
+li {
+    width: 25rem;
+
+} 
+
+
+.button {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: darkolivegreen;
+    color: lightgoldenrodyellow;
+    font-size: 1rem
+} 
+
+
+.request__delete {
+    margin-left: 1rem;
+    background-color:#A52A2A;
+    color: lightgoldenrodyellow;
+    font-size: 1rem; 
+
+}

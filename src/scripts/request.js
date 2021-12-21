@@ -1,5 +1,19 @@
 import { getRequests } from "./dataAccess.js"
 
+
+const convertRequestToListElement = (request) => {
+    return `
+    <li>
+        ${request.description}
+        <button class="request__delete" id="request--${request.id}">
+            Delete
+        </button>
+    </li>
+`
+}
+
+
+
 export const Requests = () => {
     const requests = getRequests()
 
@@ -12,11 +26,4 @@ export const Requests = () => {
     `
 
     return html
-}
-
-
-const convertRequestToListElement = (request) => {
- return `<li>
- ${request.description}
- </li>`
 }

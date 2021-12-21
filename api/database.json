@@ -1,13 +1,76 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [],
+  "completions": [],
+  "requests": [
+    {
+      "description": "Leaky Sink",
+      "address": "1000 Infinity Loop",
+      "budget": "900.00",
+      "neededBy": "2021-12-31",
+      "id": 2
+    },
+    {
+      "description": "Broken Handle",
+      "address": "!000 Yasss Queen Blvd",
+      "budget": "999.99",
+      "neededBy": "2022-01-01",
+      "id": 3
+    },
+    {
+      "description": "Broken Handle",
+      "address": "36 Mafia St",
+      "budget": "1000",
+      "neededBy": "2022-01-06",
+      "id": 4
+    },
+    {
+      "description": "Leaky Pipe",
+      "address": "13 Friday Lane",
+      "budget": "200",
+      "neededBy": "2021-12-31",
+      "id": 5
+    },
+    {
+      "description": "Leaky Pipe",
+      "address": "13 Friday Lane",
+      "budget": "200",
+      "neededBy": "2021-12-31",
+      "id": 6
+    },
+    {
+      "description": "Leaky Pipe",
+      "address": "13 Friday Lane",
+      "budget": "200",
+      "neededBy": "2021-12-31",
+      "id": 7
+    },
+    {
+      "description": "Leaky Pipe",
+      "address": "13 Friday Lane",
+      "budget": "200",
+      "neededBy": "2021-12-31",
+      "id": 8
+    },
+    {
+      "description": "Leaky Pipe",
+      "address": "13 Friday Lane",
+      "budget": "200",
+      "neededBy": "2021-12-31",
+      "id": 9
+    },
+    {
+      "description": "Leaky Bathroom Sink",
+      "address": "1000 Infinity Loop",
+      "budget": "999",
+      "neededBy": "2021-12-23",
+      "id": 10
+    },
+    {
+      "description": "Cracked Sink bowl",
+      "address": "303 Don't Trust Court",
+      "budget": "2000",
+      "neededBy": "2022-01-05",
+      "id": 11
+    }
+  ]
 }
