@@ -1,5 +1,6 @@
 const applicationState = {
-    requests: []
+    requests: [],
+    plumbers: []
 }
 const API = "http://localhost:8088"
 
@@ -30,6 +31,9 @@ export const getRequests = () => {
     return applicationState.requests.map(request => ({...request}))
 }
 
+export const getPlumbers = () => {
+    return applicationState.plumbers.map(plumber => ({...plumber}))
+}
 
 
 export const sendRequest = (userServiceRequest) => {
