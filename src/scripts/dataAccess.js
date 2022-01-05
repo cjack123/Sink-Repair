@@ -1,6 +1,13 @@
 const applicationState = {
     requests: [],
-    plumbers: []
+    plumbers: [{
+        id: 1,
+        name: "Maude"
+      },
+      {
+        id: 2,
+        name: "Merle"
+      }]
 }
 const API = "http://localhost:8088"
 
@@ -63,4 +70,38 @@ export const deleteRequest = (id) => {
                 mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
             }
         )
+}
+
+export const saveCompletion = (completion) => {
+    const fetchOptions = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(completion)
+    }
+
+
+    return fetch(`${API}/completions`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+
+        })
+}
+
+export const fetchCompletions = (completion) => {
+    const fetchOptions = {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(completion)
+    }
+
+
+    return fetch(`${API}/completions`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+
+        })
 }

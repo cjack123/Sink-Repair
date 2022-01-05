@@ -2,22 +2,34 @@
   "plumbers": [
     {
       "id": 1,
-      "plumber": "Maude"
+      "name": "Maude"
     },
     {
       "id": 2,
-      "plumber": "Merle"
+      "name": "Merle"
     }
   ],
-  "completions": [],
-  "requests": [
+  "completions": [
     {
-      "description": "Leaky Sink",
-      "address": "1000 Infinity Loop",
-      "budget": "900.00",
-      "neededBy": "2021-12-31",
+      "id": 1
+    },
+    {
       "id": 2
     },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ],
+  "requests": [
     {
       "description": "Broken Handle",
       "address": "!000 Yasss Queen Blvd",
